@@ -7,7 +7,7 @@ import Products from './components/Products';
 import ProductDetails from './components/ProductDetails';
 import LikedProducts from './components/LikedProducts';
 import Cart from './components/Cart';
-import Confirm from './components/Confirm';
+// import Confirm from './components/Confirm';
 import MyOrderlist from './components/MyOrderlist';
 
 
@@ -38,7 +38,7 @@ function App() {
           <Route path='/liked-products' element={<LikedProducts/>} />
           <Route path='/cart' element={<Cart/>} />
           <Route path='/checkout' element={<Checkout/>}/>
-          <Route path='/confirm' element={<Confirm/>}/>
+          {/* <Route path='/confirm' element={<Confirm/>}/> */}
           <Route path='/my-orders' element={<MyOrderlist/>}/>
           <Route path='/orders-details/:orderId' element={<OrderDetailsPage/>}/>
         </Routes>
